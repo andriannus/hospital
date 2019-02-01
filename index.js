@@ -13,7 +13,8 @@ app.use(morgan('dev'));
 app.use(json());
 app.use(cors());
 
-// Load Controller files
+app.use(express.static('client/dist'));
+
 const healthCenter = require('./controllers/Health');
 
 app.use('/api/v1/health-center', healthCenter);
