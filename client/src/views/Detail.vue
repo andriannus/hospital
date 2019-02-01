@@ -219,7 +219,6 @@ export default class Detail extends Vue {
     this.axios.get(`health-center/${id}`)
       .then((res) => {
         this.hospital = res.data.data;
-        console.log(this.hospital)
       })
       .catch((err) => {
         //

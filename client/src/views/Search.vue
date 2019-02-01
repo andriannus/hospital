@@ -136,17 +136,17 @@ export default class Search extends Vue {
     this.isEmpty = false;
 
     const { keyword } = this;
-    
+
     this.axios.get(`health-center/result?search=${keyword}`)
       .then((res) => {
         this.hospitals = res.data.data;
       })
       .catch((err) => {
-        console.log(err);
+        //
       })
       .finally(() => {
         this.isLoading = false;
-      })
+      });
   }
 }
 </script>
