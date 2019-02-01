@@ -11,7 +11,7 @@ Vue.use(Vuetify);
 Vue.use(VueAxios, axios);
 Vue.use(Meta);
 
-axios.defaults.baseURL = 'http://localhost:7880/api/v1/';
+axios.defaults.baseURL = 'https://hospital-vue.herokuapp.com/api/v1/';
 Vue.config.productionTip = false;
 
 new Vue({
