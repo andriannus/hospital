@@ -1,0 +1,39 @@
+$blue-medigo: #1ab1e5;
+$green-medigo: #24e2cf;
+$bg-medigo: #f5f8f9;
+
+.blue-medigo--text {
+  color: $blue-medigo;
+}
+
+.green-medigo--text {
+  color: $green-medigo;
+}
+
+.bg-medigo {
+  background-color: $bg-medigo !important;
+}
+
+.bg-blue {
+  background-color: $blue-medigo !important;
+}
+
+.bg-green {
+  background-color: $green-medigo !important;
+}
+
+.bg-medigo-mix {
+  background-image: linear-gradient(to right, $blue-medigo, $green-medigo);
+}
+
+.bra-10 {
+  border-radius: 10px !important;
+}
+
+.hover {
+  cursor: pointer;
+}
+
+.v-input__slot {
+  @extend .bra-10;
+}
