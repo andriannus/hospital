@@ -1,5 +1,4 @@
 const axios = require('axios');
-// const { forEach } = require('lodash');
 const { Router } = require('express');
 
 const token = '6b36dc2dd025111ba65c469fbef24ac432ba2aab39dd1e949cfedcf22c31cfe6';
